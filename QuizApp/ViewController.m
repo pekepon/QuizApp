@@ -29,7 +29,9 @@
     self.tv.text = @"東京ディズニーランドがあるのは東京都である。\n\n\n ◯ or X";
 }
 -(IBAction)answer1:(id)sender{
-    if (countNumber == 1){
+    if([timer isValid]){
+        return;
+    } else if (countNumber == 1){
         self.textLabel1.text = @"不 正 解";
         self.textLabel4.text = @"3秒後に次の問題です。";
         countNumber++;
@@ -66,7 +68,9 @@
 
 }
 -(IBAction)answer2:(id)sender{
-    if (countNumber == 1){
+    if([timer isValid]){
+        return;
+    } else if (countNumber == 1){
         self.textLabel1.text = @"正 解";
         self.textLabel4.text = @"3秒後に次の問題です。";
         countAnswer = countAnswer+20;
