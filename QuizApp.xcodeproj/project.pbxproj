@@ -13,6 +13,9 @@
 		8210D29C1C3FFD46006718FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8210D29A1C3FFD46006718FD /* Main.storyboard */; };
 		8210D29E1C3FFD46006718FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8210D29D1C3FFD46006718FD /* Assets.xcassets */; };
 		8210D2A11C3FFD46006718FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8210D29F1C3FFD46006718FD /* LaunchScreen.storyboard */; };
+		8210D2A91C40003A006718FD /* btn043_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8210D2A81C40003A006718FD /* btn043_01.gif */; };
+		8210D2AB1C4000C2006718FD /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D2AA1C4000C2006718FD /* maru.png */; };
+		8210D2AD1C400105006718FD /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D2AC1C400105006718FD /* batsu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8210D29D1C3FFD46006718FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8210D2A01C3FFD46006718FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8210D2A21C3FFD46006718FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8210D2A81C40003A006718FD /* btn043_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn043_01.gif; sourceTree = "<group>"; };
+		8210D2AA1C4000C2006718FD /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
+		8210D2AC1C400105006718FD /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batsu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		8210D2911C3FFD46006718FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8210D2AC1C400105006718FD /* batsu.png */,
+				8210D2AA1C4000C2006718FD /* maru.png */,
+				8210D2A81C40003A006718FD /* btn043_01.gif */,
 				8210D2921C3FFD46006718FD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,7 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8210D2A91C40003A006718FD /* btn043_01.gif in Resources */,
+				8210D2AB1C4000C2006718FD /* maru.png in Resources */,
 				8210D2A11C3FFD46006718FD /* LaunchScreen.storyboard in Resources */,
+				8210D2AD1C400105006718FD /* batsu.png in Resources */,
 				8210D29E1C3FFD46006718FD /* Assets.xcassets in Resources */,
 				8210D29C1C3FFD46006718FD /* Main.storyboard in Resources */,
 			);
